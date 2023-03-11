@@ -1,0 +1,46 @@
+body {
+	font-family: Arial, sans-serif;
+	font-size: 16px;
+	margin: 0;
+	padding: 0;
+}
+
+.container {
+	margin: 50px auto;
+	max-width: 500px;
+	padding: 20px;
+	background-color: #3E54AC;
+    color: white;
+	box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.2);
+}
+
+.form-control {
+	display: block;
+	width: 100%;
+	padding: 10px;
+	font-size: 16px;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	margin-bottom: 10px;
+	box-sizing: border-box;
+}
+
+.btn {	
+	color: #fff;
+	font-size: 16px;
+	padding: 10px 20px;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+    background-color: #8e68d4;
+}
+
+.btn:hover {
+	background-color: #BFACE2;
+}
+
+.form-title {
+	margin-bottom: 20px;
+	text-align: center;
+	font-size: 24px;
+}

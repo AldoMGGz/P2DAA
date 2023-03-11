@@ -1,0 +1,75 @@
+body {
+    background-color: #ECF2FF;
+}
+
+#boton{ 
+	position:fixed; 
+	top:0; 
+	left:0; 
+    margin: 5px;
+    background-color: #655DBB;
+    color: white;
+    padding: 10px 50px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 32px;
+} 
+#boton:hover {
+    background-color: #9470d6; 
+    color: white;
+  }
+  #rest {
+    border-radius: 12px;
+    margin: 50px;
+    margin-bottom: 5px;
+  }
+  #hora {
+    margin: 5px;
+    border-radius: 12px;
+    margin-left: 10px;
+  }
+  #hora:hover {
+    background-color: #9470d6; 
+    color: white;
+  }
+  .container {
+    margin: 50px auto;
+	max-width: 500px;
+	padding: 20px;
+	background-color: #3E54AC;
+    color: white;
+	box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.2);
+}
+
+.form-control {
+	display: block;
+	width: 100%;
+	padding: 10px;
+	font-size: 16px;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	margin-bottom: 10px;
+	box-sizing: border-box;
+}
+
+.btn {
+	background-color: #8e68d4;
+	color: #fff;
+	font-size: 16px;
+	padding: 10px 20px;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #BFACE2;
+}
+
+.form-title {
+	margin-bottom: 20px;
+	text-align: center;
+	font-size: 24px;
+}
